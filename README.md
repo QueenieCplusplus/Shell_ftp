@@ -52,7 +52,7 @@ file transfer protocol via WWW
 
   * (a) $0, $#, $n, $?
   
-  https://github.com/QueenieCplusplus/Shell_echo#common-variable
+     https://github.com/QueenieCplusplus/Shell_echo#common-variable
 
 (to be continued...)
 
