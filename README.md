@@ -58,9 +58,9 @@ file transfer protocol via WWW
      
    * (b) cut -d/ -f3
    
-            This will take the input, split the string by the '/' delimiter and take the third field. 
+           This will take the input, split the string by the '/' delimiter and take the third field. 
 
-           cut -d "=" -f2
+          cut -d "=" -f2
            
           This will take the input, split the string by the '=' delimiter and take the second field. If var contains a=b=c then this command will return 'b'.
 
