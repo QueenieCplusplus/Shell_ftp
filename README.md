@@ -53,6 +53,14 @@ file transfer protocol via WWW
   * (a) $0, $#, $n, $?
   
      https://github.com/QueenieCplusplus/Shell_echo#common-variable
+     
+* Execution
+
+   plz change the scripts filename to be ftpget instead of 520b.
+   then type in bash:
+   
+        ftpget ftp://...
+ 
 
 (to be continued...)
 
