@@ -15,7 +15,7 @@ file transfer protocol via WWW
     
 * Script
 
-  * (a) $0, $#, $n
+  * (a) $0, $#, $n, $?
   
   https://github.com/QueenieCplusplus/Shell_echo#common-variable
 
