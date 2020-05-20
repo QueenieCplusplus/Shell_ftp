@@ -7,6 +7,8 @@ file transfer protocol via WWW
     
 * Application
 
+   to upload or download files via WWW.
+
   * 1. Request Target URL with Page to be downloaded
  
   * 2. Text Message with Image
