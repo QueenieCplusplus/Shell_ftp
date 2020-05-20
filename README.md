@@ -5,11 +5,11 @@ file transfer protocol via WWW
     
 * Application
 
- 1. Request Target URL with Page to be downloaded
+  * 1. Request Target URL with Page to be downloaded
  
- 2. Text Message with Image
+  * 2. Text Message with Image
  
- 3. Mail Send/ Received with Mail_Body
+  * 3. Mail Send/ Received with Mail_Body
     
 * Script
 
