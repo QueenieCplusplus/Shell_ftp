@@ -44,7 +44,7 @@ file transfer protocol via WWW
           EOF
 
           if [ $? -ne 0 ]; then
-              ls -l $basefile 
+              ls -l $basefile  # (c)
           fi
 
           exit 0
@@ -67,6 +67,10 @@ file transfer protocol via WWW
           cut -d "|" -f1
           
           This is similar as the previous command, but will split using '|' as a delimiter and will take the first field.
+          
+    * (c) ls -l
+    
+      (to be wait for check...)
 
 * Execution
 
