@@ -1,7 +1,9 @@
 # Shell_ftp
 file transfer protocol via WWW
 
-    ftp:// < server_name >/ < path >/ <file_name>
+     
+     $ ftpget ftp:// < server_name >/ < path >/ <file_name>.tar.gz
+     
     
 * Application
 
