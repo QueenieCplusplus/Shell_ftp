@@ -22,7 +22,7 @@ file transfer protocol via WWW
 
           anonpass = "$logname@$(hostname)"
 
-          if [ $# -ne 1 ]; then
+          if [ $# -ne 1 ]; then   # (a)
               echo"execution way is : $0 ftp://..." >&2
               exit 1
           fi
@@ -32,7 +32,7 @@ file transfer protocol via WWW
               exit 1
           fi
 
-          server = '$( echo $1 | cut -d / -f3)'
+          server = '$( echo $1 | cut -d / -f3)' # (b)
           filename = '$( echo $1 | cut -d/ -f4-)'
           basefile = '$( basename $filename )'
 
@@ -56,6 +56,18 @@ file transfer protocol via WWW
   
      https://github.com/QueenieCplusplus/Shell_echo#common-variable
      
+   * (b) cut -d/ -f3
+   
+            This will take the input, split the string by the '/' delimiter and take the third field. 
+
+           cut -d "=" -f2
+           
+          This will take the input, split the string by the '=' delimiter and take the second field. If var contains a=b=c then this command will return 'b'.
+
+          cut -d "|" -f1
+          
+          This is similar as the previous command, but will split using '|' as a delimiter and will take the first field.
+
 * Execution
 
    plz change the scripts filename to be ftpget instead of 520b.
