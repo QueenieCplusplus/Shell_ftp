@@ -20,7 +20,7 @@ file transfer protocol via WWW
           #!/bin/bash
           # ftpget-- to get file in anoynymous way.
 
-          anonpass = "$logname@$(hostname)"
+          anonpass="$logname@$(hostname)"
 
           if [ $# -ne 1 ]; then   # (a)
               echo"execution way is : $0 ftp://..." >&2
@@ -32,9 +32,9 @@ file transfer protocol via WWW
               exit 1
           fi
 
-          server = '$( echo $1 | cut -d / -f3)' # (b)
-          filename = '$( echo $1 | cut -d/ -f4-)'
-          basefile = '$( basename $filename )'
+          server='$( echo $1 | cut -d / -f3)' # (b)
+          filename='$( echo $1 | cut -d/ -f4-)'
+          basefile='$( basename $filename )'
 
           ftp -np << EOF
           open $server
